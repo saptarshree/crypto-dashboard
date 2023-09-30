@@ -44,7 +44,7 @@ const CryptoExchangeComparison = () => {
   };
 
   return (
-    <div className="container bg-white shadow-md border rounded-md  h-68 top-2 relative">
+    <div className="container bg-white shadow-md border rounded-md  h-64 md-5 top-2 relative">
       <h2 className="text-green-500 font-bold ml-4 text-xl">Exchange Coins</h2>
 
       {/* Input for selecting crypto1 */}
