@@ -5,7 +5,7 @@ import {
   SET_CRYPTO2,
   SET_AMOUNT,
   SET_COMPARISON_RESULT,
-} from '../exchangeActions';
+} from '../Action/exchangeActions';
 
 const initialState = {
   exchangeRates: {

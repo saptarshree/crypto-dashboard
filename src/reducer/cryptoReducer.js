@@ -4,7 +4,7 @@ import {
   FETCH_CRYPTO_REQUEST,
   FETCH_CRYPTO_SUCCESS,
   FETCH_CRYPTO_FAILURE,
-} from '../cryptoActions';
+} from '../Action/cryptoActions';
 
 const initialState = {
   loading: false,

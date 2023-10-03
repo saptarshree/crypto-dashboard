@@ -1,7 +1,7 @@
 // src/components/CurrencyDropdown.js
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setCurrency } from '../currencyActions';
+import { setCurrency } from '../Action/currencyActions';
 
 const CurrencyDropdown = () => {
   const selectedCurrency = useSelector((state) => state.currency.selectedCurrency);

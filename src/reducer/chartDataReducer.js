@@ -7,7 +7,7 @@ import {
   FETCH_CHART_DATA_REQUEST,
   FETCH_CHART_DATA_SUCCESS,
   FETCH_CHART_DATA_FAILURE,
-} from '../chartActions';
+} from '../Action/chartActions';
 
 const initialState = {
   timeInterval: '1d',

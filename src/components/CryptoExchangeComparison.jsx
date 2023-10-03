@@ -7,7 +7,7 @@ import {
   setCrypto2,
   setAmount,
   setComparisonResult,
-} from '../exchangeActions';
+} from '../Action/exchangeActions';
 
 const CryptoExchangeComparison = () => {
   const dispatch = useDispatch();
@@ -117,8 +117,10 @@ const CryptoExchangeComparison = () => {
             </p>
           ))}
         </div>
+
       )}
     </div>
+    
   );
 };
 

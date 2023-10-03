@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchCryptoData } from '../cryptoActions';
+import { fetchCryptoData } from '../Action/cryptoActions';
 
 const CryptoSidebar = () => {
   const selectedCurrency = useSelector((state) => state.currency.selectedCurrency);

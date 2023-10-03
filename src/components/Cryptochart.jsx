@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchChartData } from '../chartActions';
+import { fetchChartData } from '../Action/chartActions';
 import {
   LineChart,
   Line,
